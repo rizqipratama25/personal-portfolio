@@ -22,14 +22,11 @@
   --color-highlight: #f5a623;
   --color-surface: #1a2329;
 
-  --container-center: true;
-  --container-padding: 2rem;
 }
 
 @layer base {
   html {
     scroll-behavior: smooth;
-    scrollbar-gutter: stable;
   }
 
   body {

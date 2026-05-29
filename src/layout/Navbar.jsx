@@ -25,7 +25,7 @@ const Navbar = () => {
   }, []);
   return (
     <header className={`fixed top-0 left-0 right-0 transition-all duration-500 ${isScrolled ? "glass-strong py-3" : "bg-transparent py-5"} z-50`}>
-      <nav className="container mx-auto px-6 flex items-center justify-between">
+      <nav className="w-full max-w-7xl mx-auto px-6 lg:px-6 md:px-12 sm:px-8 flex items-center justify-between">
         <a href="#" className="text-xl font-bold tracking-tight hover:text-primary">
           RP<span className="text-primary">.</span>
         </a>
@@ -63,7 +63,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden glass-strong animate-fade-in">
-          <div className="container mx-auto px-6 py-6 flex flex-col gap-4">
+          <div className="w-full max-w-7xl md:max-w-4xl mx-auto px-6 lg:px-6 md:px-12 sm:px-8 py-6 flex flex-col gap-4">
             {navLinks.map((link, index) => (
               <a
                 href={link.href}
