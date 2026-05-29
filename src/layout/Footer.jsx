@@ -3,7 +3,7 @@ import { IconBrandGithub, IconBrandLinkedin, IconBrandX } from "@tabler/icons-re
 const socialLinks = [
   { icon: IconBrandGithub, href: "#", label: "GitHub" },
   { icon: IconBrandLinkedin, href: "#", label: "LinkedIn" },
-  { icon: IconBrandX, href: "#", label: "X" },
+  { icon: IconBrandX, href: "https://x.com/MuhammadRi3518", label: "X" },
 ];
 
 const footerLinks = [

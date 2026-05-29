@@ -7,14 +7,8 @@ const contactInfo = [
   {
     icon: IconMail,
     label: "Email",
-    value: "rizprat2508@gmail.com",
-    href: "mailto:rizprat2508@gmail.com",
-  },
-  {
-    icon: IconPhone,
-    label: "Phone",
-    value: "+6285791286376",
-    href: "tel:+6285791286376",
+    value: "rizqipratama.se@gmail.com",
+    href: "mailto:rizqipratama.se@gmail.com",
   },
   {
     icon: IconMapPin,

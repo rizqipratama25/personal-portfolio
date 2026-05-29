@@ -1,6 +1,7 @@
 import Button from "@/components/Button"
 import AnimatedBorderButton from "@/components/AnimatedBorderButton"
 import { IconArrowRight, IconBrandGithub, IconBrandLinkedin, IconBrandX, IconChevronDown, IconDownload } from "@tabler/icons-react"
+import cv from "@/assets/cv-rizqi-pratama.pdf"
 
 const skills = [
   "React",
@@ -80,22 +81,26 @@ const Hero = () => {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-              <Button size="lg">
-                Contact Me <IconArrowRight className="w-5 h-5" />
-              </Button>
-              <AnimatedBorderButton>
-                <IconDownload className="w-5 h-5" />
-                Download CV
-              </AnimatedBorderButton>
+              <a href="#contact">
+                <Button size="lg">
+                  Contact Me <IconArrowRight className="w-5 h-5" />
+                </Button>
+              </a>
+              <a href={cv} download="cv-rizqi-pratama">
+                <AnimatedBorderButton>
+                  <IconDownload className="w-5 h-5" />
+                  Download CV
+                </AnimatedBorderButton>
+              </a>
             </div>
 
             {/* Social Links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow: </span>
               {[
-                { icon: IconBrandGithub, href: "#" },
-                { icon: IconBrandLinkedin, href: "#" },
-                { icon: IconBrandX, href: "#" },
+                { icon: IconBrandGithub, href: "https://github.com/rizqipratama25" },
+                { icon: IconBrandLinkedin, href: "https://www.linkedin.com/in/rizqipratama-dev" },
+                { icon: IconBrandX, href: "https://x.com/MuhammadRi3518" },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -118,7 +123,7 @@ const Hero = () => {
                 {/* Floating Badge */}
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
                   <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"/>
+                    <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                     <span className="text-sm font-medium">Available for work</span>
                   </div>
                 </div>
@@ -148,12 +153,12 @@ const Hero = () => {
       </div>
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in animation-delay-800">
-        <a 
-        href="#about"
-        className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
+        <a
+          href="#about"
+          className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
         >
           <span className="text-xs uppercase tracking-wider">Scroll</span>
-          <IconChevronDown className="w-6 h-6 animate-bounce"/>
+          <IconChevronDown className="w-6 h-6 animate-bounce" />
         </a>
       </div>
     </section>
