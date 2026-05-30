@@ -5,6 +5,8 @@ import Projects from '@/sections/Projects'
 import Experience from '@/sections/Experience'
 import Contact from '@/sections/Contact'
 import { Footer } from "@/layout/Footer";
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <Analytics />
+      <SpeedInsights />
     </div>
   )
 }
