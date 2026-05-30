@@ -12,9 +12,9 @@ const projects = [
     github: "https://github.com/rizqipratama25/E-commerce",
   },
   {
-    title: "School Website Content Management API",
+    title: "SKANEDA Information Platform API ",
     description:
-      "RESTful content management API built with Laravel for managing school news, announcements, galleries, and informational pages. Includes authentication, search, filtering, pagination, and content publishing workflows.",
+      "Laravel REST API serving a multi-domain school information platform with news publishing, achievements, facilities, discussion forums, career opportunities, role-based authentication, Redis caching, and background job processing.",
     image: "/projects/school-website-project.png",
     tags: ["Laravel", "MySQL", "Redis"],
     link: "#",
