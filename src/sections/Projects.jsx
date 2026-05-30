@@ -7,7 +7,7 @@ const projects = [
     description:
       "Marketplace-style e-commerce platform built with Laravel REST API and React. Features product management, role-based access control, Midtrans payment integration, webhook processing, delayed seller payouts, and Typesense-powered search.",
     image: "/projects/e-commerce-project.png",
-    tags: ["Laravel", "React", "MySQL", "Redis", "Docker", "Midtrans", "Typesense"],
+    tags: ["Laravel", "React", "PostgreSQL", "Redis", "Docker", "Midtrans", "Typesense"],
     link: "#",
     github: "https://github.com/rizqipratama25/E-commerce",
   },
