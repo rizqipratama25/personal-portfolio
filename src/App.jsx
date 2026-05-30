@@ -5,8 +5,8 @@ import Projects from '@/sections/Projects'
 import Experience from '@/sections/Experience'
 import Contact from '@/sections/Contact'
 import { Footer } from "@/layout/Footer";
-import { Analytics } from "@vercel/analytics/next"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
