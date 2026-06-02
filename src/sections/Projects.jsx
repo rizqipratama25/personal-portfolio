@@ -26,6 +26,7 @@ const projects = [
       "Inventory lending and asset tracking application built with Laravel. Supports item management, borrowing records, return tracking, and inventory monitoring workflows.",
     image: "/projects/inventory-app.png",
     tags: ["Laravel", "MySQL"],
+    link: "#",
     github: "https://github.com/rizqipratama25/siminlab-inventory-lending-management-system",
   },
 ];
