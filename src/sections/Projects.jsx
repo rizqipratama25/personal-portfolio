@@ -15,7 +15,7 @@ const projects = [
     title: "SKANEDA Information Platform API ",
     description:
       "Laravel REST API serving a multi-domain school information platform with news publishing, achievements, facilities, discussion forums, career opportunities, role-based authentication, Redis caching, and background job processing.",
-    image: "/projects/siminlab-inventory-lending-management-system.png",
+    image: "/projects/school-website-project.png",
     tags: ["Laravel", "MySQL", "Redis"],
     link: "#",
     github: "https://github.com/rizqipratama25/skaneda-web-api",
@@ -24,7 +24,7 @@ const projects = [
     title: "Siminlab Inventory Lending Management System",
     description:
       "Inventory lending and asset tracking application built with Laravel. Supports item management, borrowing records, return tracking, and inventory monitoring workflows.",
-    image: "/projects/inventory-app.png",
+    image: "/projects/siminlab-inventory-lending-management-system.png",
     tags: ["Laravel", "MySQL"],
     link: "#",
     github: "https://github.com/rizqipratama25/siminlab-inventory-lending-management-system",
