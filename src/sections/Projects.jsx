@@ -3,10 +3,19 @@ import AnimatedBorderButton from "@/components/AnimatedBorderButton"
 
 const projects = [
   {
+    title: "Verdko Marketplace Price Monitoring SaaS",
+    description:
+      "End-to-end SaaS engineering project for marketplace price monitoring, built with React, Laravel, Redis, Python/Playwright, PostgreSQL, and Docker.",
+    image: "/projects/verdko-marketplace-price-monitoring.webp",
+    tags: ["Laravel", "React", "PostgreSQL", "Redis", "Docker", "Python", "Playwright", "Telegram Bot"],
+    link: "#",
+    github: "https://github.com/rizqipratama25/verdko",
+  },
+  {
     title: "E-Commerce Platform",
     description:
       "Marketplace-style e-commerce platform built with Laravel REST API and React. Features product management, role-based access control, Midtrans payment integration, webhook processing, delayed seller payouts, and Typesense-powered search.",
-    image: "/projects/e-commerce-project.png",
+    image: "/projects/e-commerce-project.webp",
     tags: ["Laravel", "React", "PostgreSQL", "Redis", "Docker", "Midtrans", "Typesense"],
     link: "#",
     github: "https://github.com/rizqipratama25/E-commerce",
@@ -15,7 +24,7 @@ const projects = [
     title: "SKANEDA Information Platform API ",
     description:
       "Laravel REST API serving a multi-domain school information platform with news publishing, achievements, facilities, discussion forums, career opportunities, role-based authentication, Redis caching, and background job processing.",
-    image: "/projects/school-website-project.png",
+    image: "/projects/school-website-project.webp",
     tags: ["Laravel", "MySQL", "Redis"],
     link: "#",
     github: "https://github.com/rizqipratama25/skaneda-web-api",
@@ -24,7 +33,7 @@ const projects = [
     title: "Siminlab Inventory Lending Management System",
     description:
       "Inventory lending and asset tracking application built with Laravel. Supports item management, borrowing records, return tracking, and inventory monitoring workflows.",
-    image: "/projects/siminlab-inventory-lending-management-system.png",
+    image: "/projects/siminlab-inventory-lending-management-system.webp",
     tags: ["Laravel", "MySQL"],
     link: "#",
     github: "https://github.com/rizqipratama25/siminlab-inventory-lending-management-system",
